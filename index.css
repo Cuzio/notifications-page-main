@@ -1,0 +1,187 @@
+/* ### Primary
+
+- Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%) */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: hsl(210, 60%, 98%);
+    width: 100vw;
+    height: 950px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 50px 400px;
+}
+
+.container {
+    border: 2px solid gray;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 850px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.notify {
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+
+.notify h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+span {
+    background-color:  hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.readAll {
+    color: hsl(219, 12%, 42%);
+    padding-left: 350px;
+    padding-top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+}
+
+.readAll:hover {
+    color: hsl(225, 78%, 37%);
+}
+
+img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.yet {
+    /* border: 2px solid yellow; */
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.yetNote {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    color: hsl(224, 21%, 14%);
+    text-decoration: none;
+    padding: 30px 2px 0 2px;
+    font-weight: bold;
+}
+
+.name:hover {
+    color: hsl(225, 78%, 37%);
+}
+
+.yetNote p{
+    color: hsl(219, 14%, 63%);
+    font-size: 16px;
+    padding: 30px 2px 0 2px;
+}
+
+.yetPost {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    padding: 30px 2px 0 2px;
+}
+
+.yetPost:hover {
+    color: hsl(225, 78%, 37%);
+}
+
+.fa-circle {
+    color: hsl(1, 90%, 64%);
+    font-size: 10px;
+    padding: 35px 5px 0 2px;
+}
+
+.time {
+    padding: 0 50px;
+    color: hsl(219, 14%, 63%);
+}
+
+.opened {
+    /* border: 2px solid yellow; */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.openedNote {
+     /* border: 2px solid green; */
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.openedNote p{
+    color: hsl(219, 14%, 63%);
+    font-size: 16px;
+    padding: 30px 2px 0 2px;
+}
+
+.message {
+    border: 2px solid hsl(210, 5%, 78%);
+    margin: 5px 5px 5px 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.message a {
+    text-decoration: none;
+    color: hsl(219, 14%, 63%);
+}
+
+.message:hover {
+    background-color: hsl(225, 42%, 15%);
+}
+
+.chess {
+    margin: 0 0 0 200px;
+}
+
+
+.post {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    padding: 30px 2px 0 2px;
+}
+
+.post:hover {
+    color: hsl(225, 78%, 37%);
+}
+
+
+
+
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }

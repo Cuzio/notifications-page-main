@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/ae7bfb5d07.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/index.js"></script>
+
+    <title>Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="background">
+      <article class="container">
+        <div class="notify">
+          <h4>Notifications</h4>
+          <h4><span id="notifyNumber">3</span></h4>
+          <button class="readAll" id="readAll" onclick="read()">
+            Mark all as read
+          </button>
+          <!-- <a href="#" class="readAll">Mark all as read</a> -->
+        </div>
+
+        <div class="yet" id="yet">
+          <div class="yetNote">
+            <img src="/assets/images/avatar-mark-webber.webp" alt="" />
+            <a href="#" class="name">Mark Webber</a>
+            <p>reacted to your recent post</p>
+            <a href="#" class="yetPost" onclick="yetPost()"
+              >My first tournament today!</a
+            >
+            <i class="fa-solid fa-circle" id="fa"></i>
+          </div>
+          <div class="time">
+            <p>1m ago</p>
+          </div>
+        </div>
+
+        <div class="yet" id="yet1">
+          <div class="yetNote">
+            <img src="/assets/images/avatar-angela-gray.webp" alt="" />
+            <a href="#" class="name">Angela Gray</a>
+            <p>followed you</p>
+            <i class="fa-solid fa-circle" id="faa"></i>
+          </div>
+          <div class="time">
+            <p>5m ago</p>
+          </div>
+        </div>
+
+        <div class="yet" id="yet2">
+          <div class="yetNote">
+            <img src="/assets/images/avatar-jacob-thompson.webp" alt="" />
+            <a href="#" class="name">Jacob Thompson</a>
+            <p>has joined your group</p>
+            <a href="#" class="yetPost">Chess Club</a>
+            <i class="fa-solid fa-circle" id="faaa"></i>
+          </div>
+          <div class="time">
+            <p>1 day ago</p>
+          </div>
+        </div>
+
+        <div class="opened">
+          <div class="openedNote">
+            <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <a href="#" class="name">Rizky Hasanuddin</a>
+            <p>sent you a private message</p>
+          </div>
+          <div class="time">
+            <p>5 days ago</p>
+          </div>
+        </div>
+        <div class="message">
+          <a href="#"
+            ><p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p></a
+          >
+        </div>
+
+        <div class="bb">
+          <div class="opened">
+            <div class="openedNote">
+              <img src="/assets/images/avatar-kimberly-smith.webp" alt="" />
+              <a href="#" class="name">Kimberly Smith</a>
+              <p>commented on your picture</p>
+              <a href="#"
+                ><img
+                  src="/assets/images/image-chess.webp"
+                  alt=""
+                  class="chess"
+              /></a>
+            </div>
+            <div class="time">
+              <p>1 week ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="opened">
+          <div class="openedNote">
+            <img src="/assets/images/avatar-nathan-peterson.webp" alt="" />
+            <a href="#" class="name">Nathan Peterson</a>
+            <p>reacted to your recent post</p>
+            <a href="#" class="post"
+              >5 end-game strategies to increase <br />
+              your win rate</a
+            >
+          </div>
+          <div class="time">
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+
+        <div class="opened">
+          <div class="openedNote">
+            <img src="/assets/images/avatar-anna-kim.webp" alt="" />
+            <a href="#" class="name">Anna Kim</a>
+            <p>left the group</p>
+            <a href="#" class="post">Chess Club</a>
+          </div>
+          <div class="time">
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Maxwell Okoye C.</a>.
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
